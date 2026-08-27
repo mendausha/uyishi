@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+}
+
+body {
+    background-color: #ececec;
+    padding: 40px;
+}
+
+.a1 {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 40px;
+}
+
+.a2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.a3 {
+    display: flex;
+    gap: 40px;
+}
+
+.a4 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+
+.a5 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 100px;
+}
+
+.a6 {
+    width: 500px;
+    height: 320px;
+    background-color: red;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a7 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+
+.a8 {
+    width: 350px;
+    height: 280px;
+    background-color: red;
+    color: white;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a9 {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.a10 {
+    width: 350px;
+    height: 260px;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a11 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.a12 {
+    width: 260px;
+    height: 220px;
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a13 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.a14 {
+    display: flex;
+    gap: 40px;
+}
