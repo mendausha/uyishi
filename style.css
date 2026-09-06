@@ -2,122 +2,205 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: arial, sans-serif;
+    text-decoration: none;
+    list-style: none;
 }
 
 body {
-    background-color: #ececec;
-    padding: 40px;
+    background-color: #f7f9fc;
+    padding: 10px;
+    color: white;
 }
 
 .a1 {
-    width: 1200px;
-    margin: 0 auto;
-    background-color: white;
-    padding: 40px;
-}
-
-.a2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 80px;
+    margin-bottom: 25px;
+    padding: 5px;
+}
+
+.a2 {
+    width: 130px;
+    height: 45px;
+    background-color: red;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
 }
 
 .a3 {
     display: flex;
-    gap: 40px;
+}
+
+.a4-list {
+    display: flex;
+    gap: 2px;
 }
 
 .a4 {
+    width: 75px;
+    height: 38px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    font-size: 50px;
-    margin-bottom: 60px;
+    font-size: 13px;
+    padding: 2px;
 }
 
 .a5 {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    margin-bottom: 100px;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-decoration: overline;
 }
 
 .a6 {
-    width: 500px;
-    height: 320px;
-    background-color: red;
-    color: white;
-    font-size: 50px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 35px;
 }
 
 .a7 {
+    width: 65%;
+    height: 300px;
+    background-color: red;
+    font-size: 32px;
     display: flex;
     justify-content: center;
-    gap: 30px;
-    margin-bottom: 100px;
+    align-items: center;
+    text-align: center;
 }
 
 .a8 {
-    width: 350px;
-    height: 280px;
-    background-color: red;
-    color: white;
-    font-size: 35px;
+    width: 33%;
+}
+
+.a9-list {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5px;
 }
 
 .a9 {
+    width: 48%;
+    height: 145px;
+    background-color: red;
+    font-size: 16px;
     display: flex;
     justify-content: center;
-    gap: 25px;
-    flex-wrap: wrap;
-    margin-bottom: 100px;
+    align-items: center;
+    padding: 5px;
 }
 
 .a10 {
-    width: 350px;
-    height: 260px;
-    background-color: red;
-    color: white;
-    font-size: 30px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    margin-bottom: 40px;
 }
 
 .a11 {
+    width: 32%;
+    height: 200px;
+    background-color: red;
+    font-size: 22px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    margin-bottom: 100px;
+    text-align: center;
+    padding: 10px;
 }
 
 .a12 {
-    width: 260px;
-    height: 220px;
-    background-color: red;
-    color: white;
-    font-size: 25px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 35px;
 }
 
 .a13 {
+    width: 31%;
+    height: 160px;
+    background-color: red;
+    font-size: 18px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    padding: 8px;
 }
 
 .a14 {
     display: flex;
-    gap: 40px;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.a15 {
+    width: 68%;
+}
+
+.a16-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.a16 {
+    width: 48%;
+    height: 130px;
+    background-color: red;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.a17 {
+    width: 30%;
+    height: 268px;
+    background-color: red;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a18 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    border-top: 1px solid #ccc;
+}
+
+.a19 {
+    display: flex;
+}
+
+.a20-list {
+    display: flex;
+    gap: 2px;
+}
+
+.a20 {
+    width: 70px;
+    height: 32px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    text-decoration: line-through;
 }
